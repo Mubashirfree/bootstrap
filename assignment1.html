@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .mycontainer {
+            display: flex;
+            flex-direction: row;
+            height: 70vh;
+
+        }
+
+
+        .my-row1 {
+            background-color: black;
+            width: 25%;
+            /* z-index: -1; */
+
+        }
+
+        .my-row2 {
+            background-color: rgb(26, 25, 25);
+            width: 75%;
+            z-index: -1;
+
+        }
+
+        .my-row1 img {
+            width: 100%;
+
+            margin-top: 20%;
+            margin-left: 30%;
+
+        }
+
+        .my-row2 .content {
+            color: white;
+            /* border: 2px solid red; */
+            padding-top: 12%;
+            padding-left: 12%;
+
+        }
+
+        .my-row2 h1 {
+            /* border: 2px solid yellow; */
+            width: 42%;
+
+
+
+        }
+
+        .my-row2 p {
+            /* border: 2px solid yellow; */
+
+            width: 70%;
+        }
+
+
+        .box2 {
+            background-color: black;
+            color: white;
+        }
+
+        .box2-content {
+            /* border: 2px solid yellow; */
+
+            padding-left: 7%;
+
+        }
+
+        .para {
+            padding-top: 2%;
+        }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <title>ass1</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">MUBASHIR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Monography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="box1">
+        <div class="mycontainer">
+            <div class="my-row1">
+                <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quidem tempora ad dicta ut esse quos -->
+                <img src="C:\Users\Mubashir\Desktop\spektra assesments\portfolio\photo.jpg" alt="person-image" heigth=100>
+            </div>
+            <div class="my-row2">
+                <div class="content">
+                    <h1>I'm Syed Mubashir Ahmed.
+                        A Full stack deveopler
+                        Based in bengalure.</h1>
+                    <p>I'm probably the most passionate developer you will ever get to work with. If you have a great
+                        project
+                        that needs some amazing skills, I'm your guy.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="box2">
+        <p class="box2-content para">Work Experience</p>
+        <h2 class="box2-content heading">Companies I have worked for in the past</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h1>01</h1>
+                    <h6>Google, front end deveopler</h6>
+                    <p>i have worked in google for almost 4 years </p>
+                </div>
+                <div class="col-sm">
+                    <h1>02</h1>
+                    <h6>Facebook,Full-Stack </h6>
+                    <p>i have worked in facebook for almost 2 years </p>
+                </div>
+                <div class="col-sm">
+                    <h1>03</h1>
+                    <h6>Dribbble,Full-Stack</h6>
+                    <p>i have working in dribble for almost 2 years </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
